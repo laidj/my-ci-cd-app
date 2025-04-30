@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app'); // This works since you export `app` in app.js
+const app = require('../app'); // make sure the path is correct
 
 describe('GET /', () => {
   it('responds with Hello from Express!', async () => {
